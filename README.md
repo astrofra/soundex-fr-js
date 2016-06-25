@@ -14,7 +14,7 @@ Soundex.phonetic("Gendarme") // JANDARM
 License
 =======
 
-Cet algorithme et son application en PHP sont tous deux distribués sous la licence
+Cet algorithme et son application sont tous deux distribués sous la licence
 
         Creative Commons Paternité - Pas d'Utilisation Commerciale 2.0
             http://creativecommons.org/licenses/by-nc/2.0/fr/

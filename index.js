@@ -4,7 +4,7 @@ import {_} from 'lodash';
  * @author E. Bergé
  * @translated from PHP to Javascript by Jean-Elie Barjonet
  *
- * NOTE THAT YOU NEED TO INCLUDE LODASH
+ * NOTE THAT YOU NEED TO INCLUDE LODASH IN YOUR PROJECT (see import above)
  */
 
 /**

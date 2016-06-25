@@ -9,6 +9,22 @@ Usage
 
 ```es6
 Soundex.phonetic("Gendarme") // JANDARM
+Soundex.phonetic("Phonétique") // FONETIK
+Soundex.phonetic("Athmosphérique") // ATMOSFERIK
+Soundex.phonetic("Morceaux") // MORSO
+Soundex.phonetic("Sciemment") // SIAMAN
+Soundex.phonetic("Comportement") // KONPORTEMAN
+Soundex.phonetic("Sceau") // SO
+Soundex.phonetic("Seau") // SO
+Soundex.phonetic("Sot") // SO
+Soundex.phonetic("Saut") // SO
+Soundex.phonetic("Soûl") // SOUL
+Soundex.phonetic("Description") // DESKRIPSION
+Soundex.phonetic("Verre") // VER
+Soundex.phonetic("Vert") // VER
+Soundex.phonetic("Vers") // VER
+Soundex.phonetic("Saule") // SOL
+Soundex.phonetic("Sol") // SOL
 ```
 
 License

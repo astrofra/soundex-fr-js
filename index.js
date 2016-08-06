@@ -290,7 +290,7 @@ export const Soundex = {
         sIn = sIn.replace(/EN$/g, 'AN');					// terminaisons EN -> AN (difficile à faire avant sans avoir des soucis) Et encore, c'est pas top!
         sIn = sIn.replace(/(NJ)EN$/g, '$1AN');			// terminaisons EN -> AN
         sIn = sIn.replace(/^PAIEM/g, 'PAIM'); 			// PAIE -> PAI
-        sIn = sIn.replace(/([^NTB])EF$/g, '\1');			// F muet en fin de mot
+        sIn = sIn.replace(/([^NTB])EF$/g, '$1');			// F muet en fin de mot
 
         sIn = sIn.replace(/(.)\1/g, '$1'); 				// supression des répétitions (suite à certains remplacements)
 
